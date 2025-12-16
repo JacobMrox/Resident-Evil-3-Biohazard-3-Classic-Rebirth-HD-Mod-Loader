@@ -1,6 +1,4 @@
-# Crash Bug/Fail/Load texture fail
-
-I am aware of the current issues where the game has no audio on the title screen and crashes on loading a new game or save, I'm working on fixing it!
+**I am aware of the current issues where the game has no audio on the title screen and crashes on loading a new game or save, I'm working on fixing it!**
 
 # 👑 RE3 Classic Rebirth 3: Self-Contained HD Mod Loader
 
