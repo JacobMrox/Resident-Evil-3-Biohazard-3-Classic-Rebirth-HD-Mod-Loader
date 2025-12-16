@@ -80,7 +80,7 @@ If you have a custom low-resolution Jill mod installed, the texture workflow is 
 
 * The game uses your custom low-res texture (e.g., the PS1/PlayStation TIM texture file in your modded DATA/PLD/PL00.PLD).
 
-* The HD Mod intercepts the textures and dumps them to: mod_hd/dump/.
+* The HD Mod intercepts the textures and dumps them to "mod_hd/dump/" (you must create the "dump" folder; otherwise it won't dump anything).
 
 * You can upscale that WEBP file to 4x resolution.
 
