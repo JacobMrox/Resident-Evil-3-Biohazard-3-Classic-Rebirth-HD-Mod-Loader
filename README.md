@@ -2,11 +2,11 @@
 
 **ゲームのタイトル画面に音声が出ず、新しいゲームやセーブをロードするときにクラッシュするという現在の問題を認識しており、修正に取り組んでいます**
 
-# 👑 RE3 Classic Rebirth 3: Self-Contained HD Mod Loader
+# 👑 RE3 Classic Rebirth 3: Self-Contained ASI HD Mod Loader
 
-Resident Evil 3 / Biohazard 3 Classic Rebirth HD Mod Loader allows "hires" texture assets and "zmovie" cutscenes/fmvs to load exclusively from a self contained (mod_hd) folder. 
+Resident Evil 3 / Biohazard 3 Classic Rebirth ASI HD Mod Loader allows "hires" texture assets and "zmovie" cutscenes/fmvs to load exclusively from a self contained (mod_hd) folder. 
 
-Resident Evil 3／バイオハザード3 Classic Rebirth HD Mod Loader は、「hires」テクスチャアセットおよび「zmovie」カットシーン／FMV を、自己完結型の（mod_hd）フォルダからのみ読み込めるようにします。
+Resident Evil 3／バイオハザード3 Classic Rebirth ASI HD Mod Loader は、「hires」テクスチャアセットおよび「zmovie」カットシーン／FMV を、自己完結型の（mod_hd）フォルダからのみ読み込めるようにします。
 
 محمل تعديل إتش دي لريزدنت إيفل ثلاثة / بايوهازارد ثلاثة «كلاسيك ريبيرث» يسمح بتحميل خامات عالية الدقة ومقاطع الفيديو السينمائية حصريًا من مجلد مستقل بذاته.
 
