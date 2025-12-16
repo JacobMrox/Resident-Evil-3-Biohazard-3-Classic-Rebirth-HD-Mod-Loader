@@ -20,22 +20,22 @@ To use this mod, you must have the following base files and environment set up:
 
 * Game Version: Biohazard 3 Sourcenext / Resident Evil 3 GOG version.
 
-** Region (GOG): Must be set to Japan region.
+  * Region (GOG): Must be set to Japan region.
 
 * Patches:
 
-** Sourcenext 1.1.0 Patch.
-** Classic Rebirth 3 (place ddraw.dll in your game root next to BIOHAZARD(R) 3 PC.exe).
+  * Sourcenext 1.1.0 Patch.
+  * Classic Rebirth 3 (place ddraw.dll in your game root next to BIOHAZARD(R) 3 PC.exe).
 
-HD Mod Files: You must provide the following files and folders from the TeamX HD Mod / Seamless HD Mod:
+* HD Mod Files: You must provide the following files and folders from the TeamX HD Mod / Seamless HD Mod:
 
-** dinput8.dll (file) - currently included
+  * dinput8.dll (file) - currently included
 
-** libwebp.dll (file) - currently included
+  * libwebp.dll (file) - currently included
 
-** bio3hd.asi (file) - currently included
+  * bio3hd.asi (file) - currently included
 
-** hires (folder)
+  * hires (folder)
 
 # 📦 Installation Instructions
 Meet all Requirements: Ensure your game is properly patched with CR3 (ddraw.dll).
