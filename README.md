@@ -1,11 +1,10 @@
-# Resident-Evil-3-Biohazard-3-Classic-Rebirth-HD-Mod-Loader
 
 RE3 Classic Rebirth 3 TeamX HD Mod Loader  This mod allows "hires" texture assets and "zmovie" cutscenes to load exclusively from the mod_hd folder. 
 
-👑 RE3 Classic Rebirth 3: Self-Contained HD Mod Loader
+# 👑 RE3 Classic Rebirth 3: Self-Contained HD Mod Loader
 This project provides a robust solution for loading the TeamX HD Mod assets (hires textures and zmovie cutscenes) exclusively from your dedicated mod folder, ensuring compatibility, stability, and control over your Resident Evil 3 experience.
 
-✨ Key Features & Purpose
+# ✨ Key Features & Purpose
 The core issue with previous modding setups was that the TeamX HD Mod loaded globally, often conflicting with Classic Rebirth 3's (CR3) mod switching feature. Your solution fixes this:
 
 Self-Contained Assets: Loads hires texture folders, zmovie cutscene folders, and dump texture folders only from the mod_hd directory.
@@ -16,7 +15,7 @@ Texture Overrides & Dumping: Ensures that any custom low-resolution textures alr
 
 Full MP4 Movie Support: Leverages CR3's built-in functionality to correctly load any correctly named MP4 movies from the mod_hd/zmovie/ path.
 
-💾 Requirements
+# 💾 Requirements
 To use this mod, you must have the following base files and environment set up:
 
 Game Version: Biohazard 3 Sourcenext / Resident Evil 3 GOG version.
@@ -37,7 +36,7 @@ HD Mod Files: You must provide the following files and folders from the TeamX HD
 
 * hires (folder)
 
-📦 Installation Instructions
+# 📦 Installation Instructions
 Meet all Requirements: Ensure your game is properly patched with CR3 (ddraw.dll).
 
 Create Mod Folder: In the root directory of your game, create a folder named "mod_hd"
@@ -48,7 +47,7 @@ Place Assets: Place the downloaded HD assets (hires, zmovie, dump, etc.) inside 
 
 Install Mod: Place the compiled hd.dll (the loader) and your manifest.txt file into the game mod direction root directory, alongside ddraw.dll.
 
-🖼️ Texture Workflow Example
+# 🖼️ Texture Workflow Example
 If you have a custom low-resolution Jill mod installed, the texture workflow is managed entirely within the mod_hd directory:
 
 The game uses your custom low-res texture (e.g., DATA/PLD/PL00.PLD).
