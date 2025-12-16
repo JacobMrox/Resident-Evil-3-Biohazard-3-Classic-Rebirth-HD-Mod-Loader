@@ -43,7 +43,13 @@ To use this mod, you must have the following base files and environment set up:
    * [OST/MUSIC Overhaul](https://www.moddb.com/addons/resident-evil-3-nemesis-ost-overhaul-addon-sourcenext) (By Saigen and Cavatina) - I love this one!
 
 # 📦 Installation Instructions
-Meet all Requirements: Ensure your game is properly patched with CR3 (ddraw.dll).
+* Meet all Requirements: Ensure your game is properly patched with CR3 (ddraw.dll in the root of your game directory).
+
+<img width="513" height="327" alt="image" src="https://github.com/user-attachments/assets/12b0c8ec-5460-40c7-806e-413af6b004d6" />
+
+* Click on Code -> Download Zip
+
+<img width="435" height="394" alt="image" src="https://github.com/user-attachments/assets/cfd7472f-b608-4d7d-a998-408b671dd137" />
 
 * In the root directory of your game, put the folder named "mod_hd" there.
 
@@ -56,6 +62,8 @@ Meet all Requirements: Ensure your game is properly patched with CR3 (ddraw.dll)
 <img width="683" height="426" alt="image" src="https://github.com/user-attachments/assets/855a8c79-0633-4323-8117-4827317bdca9" />
 
 * Launch the Mod: When you boot up BIOHAZARD(R) 3 PC.exe, select Resident Evil 3 - HD and walla!
+
+<img width="466" height="316" alt="image" src="https://github.com/user-attachments/assets/13716148-3f6b-4bcd-9837-e2dd6a5506a9" />
 
 # 🖼️ Texture Workflow Example
 If you have a custom low-resolution Jill mod installed, the texture workflow is managed entirely within the mod_hd directory:
