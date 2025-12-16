@@ -27,7 +27,7 @@ To use this mod, you must have the following base files and environment set up:
   * [Sourcenext 1.1.0 Patch](https://classicrebirth.com/index.php/download/biohazard-3-sourcenext-1-1-0-patch/).
   * [Classic Rebirth 3](https://classicrebirth.com/index.php/download/resident-evil-3-classic-rebirth/) (place ddraw.dll in your game root next to BIOHAZARD(R) 3 PC.exe).
 
-* HD Mod Files: You must provide the following files and folders from the TeamX HD Mod / [Seamless HD Mod](https://www.reshdp.com/re3/):
+* HD Mod Files: You must provide the following files and folders from the TeamX HD Mod / Seamless HD Mod:
 
   * dinput8.dll (file) - currently included
 
@@ -35,7 +35,7 @@ To use this mod, you must have the following base files and environment set up:
 
   * bio3hd.asi (file) - currently included
 
-  * hires (folder)
+  * hires (folder) - Get it from [TeamX HD Mod](https://www.moddb.com/mods/resident-evil-3-hd-mod/downloads/resident-evil-3-hd-mod) (the original HD mod) or [Seamless HD Mod](https://www.reshdp.com/re3/) (more authentic to the original game's textures)
 
  * Extra
    * [HD Movies](https://classicrebirth.com/index.php/download/re3-hq-movies/) (By Darren) 
