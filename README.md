@@ -54,6 +54,6 @@ The game uses your custom low-res texture (e.g., DATA/PLD/PL00.PLD).
 
 The HD Mod intercepts the textures and dumps them to: mod_hd/dump/.
 
-You upscale that WEBP file to 4x resolution.
+You can upscale that WEBP file to 4x resolution.
 
 You place the new high-resolution file in the matching location. E.G. if it was "mod_hd/dump/bgd/XXXXXX.webp" then the updated/modded/upscaled version goes in "mod_hd/hires/bgd/" in other words, the full path would become "mod_hd/hires/bgd/XXXXXX.webp".
