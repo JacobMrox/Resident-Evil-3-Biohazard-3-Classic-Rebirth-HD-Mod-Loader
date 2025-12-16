@@ -5,29 +5,29 @@ Resident Evil 3 / Biohazard 3 Classic Rebirth 3 HD Mod Loader allows "hires" tex
 This project provides a robust solution for loading the TeamX HD Mod assets (hires textures and zmovie cutscenes) exclusively from your dedicated mod folder, ensuring compatibility, stability, and control over your Resident Evil 3 experience.
 
 # ✨ Key Features & Purpose
-The core issue with previous modding setups was that the TeamX HD Mod loaded globally, often conflicting with Classic Rebirth 3's (CR3) mod switching feature. Your solution fixes this:
+The core issue with previous modding setups was that the TeamX HD Mod loaded globally, often conflicting with Classic Rebirth 3's (CR3) mod switching feature. Furthermore "zmovie" only loaded from the root directory of the game. This solution fixes this:
 
-Self-Contained Assets: Loads hires texture folders, zmovie cutscene folders, and dump texture folders only from the mod_hd directory.
+* Self-Contained Assets: Loads hires texture folders, zmovie cutscene folders, and dump texture folders only from the mod_hd directory.
 
-Seamless Mod Switching: Allows users to easily switch between pure vanilla/original RE3/BIO3 and the full HD experience simply by choosing or excluding this mod.
+* Seamless Mod Switching: Allows users to easily switch between pure vanilla/original RE3/BIO3 and the full HD experience simply by choosing or excluding this mod.
 
-Texture Overrides & Dumping: Ensures that any custom low-resolution textures already present in your mod are used first, and the HD Mod's dumping feature works correctly, placing upscaling-ready files directly into your mod's local dump folder.
+* Texture Overrides & Dumping: Ensures that any custom low-resolution textures already present in your mod are used first, and the HD Mod's dumping feature works correctly, placing upscaling-ready files directly into your mod's local dump folder.
 
-Full MP4 Movie Support: Leverages CR3's built-in functionality to correctly load any correctly named MP4 movies from the mod_hd/zmovie/ path.
+* Full MP4 Movie Support: Leverages CR3's built-in MP4/MPEG loading functionality to load any correctly named MP4 movies from the mod_hd/zmovie/ path. Movies no longer have to be always be HD nor globally affecting all mods if you don't want them to be.
 
 # 💾 Requirements
 To use this mod, you must have the following base files and environment set up:
 
-* Game Version: Biohazard 3 Sourcenext / Resident Evil 3 GOG version.
+* Game Version: Biohazard 3 Sourcenext / [Resident Evil 3 GOG](https://www.gog.com/en/game/resident_evil_3) version.
 
-  * Region (GOG): Must be set to Japan region.
+  * Region (GOG): Must be set to Japan region for it to be compatible with Classic Rebirth 3.
 
 * Patches:
 
-  * Sourcenext 1.1.0 Patch.
-  * Classic Rebirth 3 (place ddraw.dll in your game root next to BIOHAZARD(R) 3 PC.exe).
+  * [Sourcenext 1.1.0 Patch](https://classicrebirth.com/index.php/download/biohazard-3-sourcenext-1-1-0-patch/).
+  * [Classic Rebirth 3](https://classicrebirth.com/index.php/download/resident-evil-3-classic-rebirth/) (place ddraw.dll in your game root next to BIOHAZARD(R) 3 PC.exe).
 
-* HD Mod Files: You must provide the following files and folders from the TeamX HD Mod / Seamless HD Mod:
+* HD Mod Files: You must provide the following files and folders from the TeamX HD Mod / [Seamless HD Mod](https://www.reshdp.com/re3/):
 
   * dinput8.dll (file) - currently included
 
@@ -36,6 +36,11 @@ To use this mod, you must have the following base files and environment set up:
   * bio3hd.asi (file) - currently included
 
   * hires (folder)
+
+ * Extra
+   * [HD Movies](https://classicrebirth.com/index.php/download/re3-hq-movies/) (By Darren) 
+   * [HD Voices](https://www.moddb.com/addons/resident-evil-3-high-quality-voices-pack) (By Reza Molaee; Merci Azizam)
+   * [OST/MUSIC Overhaul](https://www.moddb.com/addons/resident-evil-3-nemesis-ost-overhaul-addon-sourcenext) (By Saigen and Cavatina) - I love this one!
 
 # 📦 Installation Instructions
 Meet all Requirements: Ensure your game is properly patched with CR3 (ddraw.dll).
@@ -59,8 +64,10 @@ You can upscale that WEBP file to 4x resolution.
 
 You place the new high-resolution file in the matching location. E.G. if it was "mod_hd/dump/bgd/XXXXXX.webp" then the updated/modded/upscaled version goes in "mod_hd/hires/bgd/" in other words, the full path would become "mod_hd/hires/bgd/XXXXXX.webp".
 
-# Custom DLL
+# Custom DLL / Future Updates
 
 A source code will be provided for those who would like to create a custom mod dll for use with their own mods, to load hires textures for said mod, all you would need to do is change mod_hd lines (few ones in hacks.cpp) and build! Then copy the provided dll in project_dir/Debug and use it with your mod_folder, just make sure the module section of your manifest.txt (in your mod_folder) refers to said dll.
+
+Future update: There is also the possibility to make it work with just about any mod_folder, like mod_nemesis or mod_lon.
 
 This is useful for users who not only want to use hires textures with their mods, but also add custom game-code changing functionalities to their game alongside the HD Texture/Movie loader functionality.
