@@ -97,6 +97,11 @@ This is useful for users who not only want to use hires textures with their mods
 This is not to be confused with Bio3/RE3 Uncut, another mod I'm working on which will utilize this.
 これを、これを利用する私が現在取り組んでいる別の mod である Bio3/RE3 Uncut と混同しないでください。
 
+# Changelog
+
+* 0.1 - first release, was broken as it relied heavily on changing current working directory (CWD) to mod_hd folder
+* 0.2 - rerouted fopen used by bio3hd.asi to mod_hd/hires and mod_hd/dump respectively, whilst keeping zmovie rerouted to hd_mod/zmovie be rerouting winapi (CreateFileA) calls
+
 # Credits
 
 * Gemini - for the marvelous Classic Rebirth
