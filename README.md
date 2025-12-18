@@ -101,8 +101,9 @@ This is not to be confused with Bio3/RE3 Uncut, another mod I'm working on which
 
 # Changelog
 
-* 0.1 - first release, was broken as it relied heavily on changing current working directory (CWD) to mod_hd folder
-* 0.2 - rerouted fopen used by bio3hd.asi to mod_hd/hires and mod_hd/dump respectively, whilst keeping zmovie rerouted to hd_mod/zmovie be rerouting winapi (CreateFileA) calls
+* 0.1 - First test release, was broken as it relied heavily on changing current working directory (CWD) to mod_hd folder
+* 0.2 - Rerouted fopen used by bio3hd.asi to mod_hd/hires and mod_hd/dump respectively, whilst keeping zmovie rerouted to hd_mod/zmovie be rerouting winapi (CreateFileA) calls
+* 0.3 - Added update functionality
 
 # Credits
 
