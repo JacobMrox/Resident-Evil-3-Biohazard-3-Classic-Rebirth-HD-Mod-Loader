@@ -1,12 +1,16 @@
 # 👑 RE3 Classic Rebirth 3: Self-Contained ASI HD Mod & Zmovie Loader
 
-Resident Evil 3 / Biohazard 3 Classic Rebirth ASI HD Mod Loader allows "hires" texture assets and "zmovie" cutscenes/fmvs to load exclusively from a self contained (mod_hd) folder. 
+Resident Evil 3 / Biohazard 3 Classic Rebirth ASI HD Mod & Movies Merged Loader allows "hires" texture assets and "zmovie" cutscenes/fmvs to load exclusively from a self contained (mod_hd) folder. 
 
+Japanese:
 Resident Evil 3／バイオハザード3 Classic Rebirth ASI HD Mod Loader は、「hires」テクスチャアセットおよび「zmovie」カットシーン／FMV を、自己完結型の（mod_hd）フォルダからのみ読み込めるようにします。
 
+Arabic:
 محمل تعديل إتش دي لريزدنت إيفل ثلاثة / بايوهازارد ثلاثة «كلاسيك ريبيرث» يسمح بتحميل خامات عالية الدقة ومقاطع الفيديو السينمائية حصريًا من مجلد مستقل بذاته.
-
+Farsi:
 لودر مود اچ‌دی برای رزیدنت ایول سه / بایوهزارد سه «کلاسیک ریبرث» امکان بارگذاری تکسچرهای با وضوح بالا و ویدیوها و میان‌پرده‌های سینمایی را به‌صورت انحصاری از یک پوشهٔ مستقل فراهم می‌کند.
+Portoguese:
+O Resident Evil 3 / Biohazard 3 Classic Rebirth ASI HD Mod & Movies Merged Loader permite que texturas em alta resolução e cenas/vídeos em formato "zmovie" sejam carregados exclusivamente a partir de uma pasta independente (mod_hd).
 
 # ✨ Key Features & Purpose
 The core issue with previous modding setups was that the TeamX HD Mod loaded globally, often conflicting with Classic Rebirth 3's (CR3) mod switching feature. Furthermore "zmovie" only loaded from the root directory of the game. This solution fixes this:
@@ -106,6 +110,7 @@ This is not to be confused with Bio3/RE3 Uncut, another mod I'm working on which
 * 0.1 - First test release, was broken as it relied heavily on changing current working directory (CWD) to mod_hd folder
 * 0.2 - Rerouted fopen used by bio3hd.asi to mod_hd/hires and mod_hd/dump respectively, whilst keeping zmovie rerouted to hd_mod/zmovie be rerouting winapi (CreateFileA) calls
 * 0.3 - Added update functionality
+* 0.4 - Added prompt for missing HD mod files
 
 # Credits
 
